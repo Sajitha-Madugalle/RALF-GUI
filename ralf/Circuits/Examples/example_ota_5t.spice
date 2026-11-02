@@ -1,0 +1,10 @@
+** sch_path: /foss/designs/RALF_Testing/05_5T_OTA/example_ota_5t.sch
+.subckt example_ota_5t INP INN OUTP VDD VSS
+*.PININFO INP:I INN:I OUTP:O VDD:B VSS:B
+XM3 net3 net3 VDD VDD sky130_fd_pr__pfet_01v8 L=1 W=4 nf=1
+XM4 OUTP net3 VDD VDD sky130_fd_pr__pfet_01v8 L=1 W=4 nf=1
+XM1 net3 INP net1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=4 nf=1
+XM2 OUTP INN net1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=4 nf=1
+XM5 net1 net2 VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=4 nf=1
+V1 net2 VSS 0.75
+.ends

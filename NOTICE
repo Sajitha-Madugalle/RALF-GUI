@@ -1,0 +1,9 @@
+This distribution contains IIC-RALF by Jakob Ratschenberger,
+Johannes Kepler University, Institute for Integrated Circuits.
+Upstream: https://github.com/iic-jku/IIC-RALF
+
+The bundled copy contains local routing/export and Magic cleanup changes.
+Packaging changes dated 2026-11-03 add a portable Qt workbench distribution,
+local path configuration, isolated dependency installation, verification scripts,
+and configurable, safely quoted Magic process calls.
+Original copyright and license notices are retained in the source files.

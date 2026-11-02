@@ -1,0 +1,7 @@
+.venv/
+paths.json
+__pycache__/
+*.pyc
+gui/jobs/
+runs/
+*.egg-info/
